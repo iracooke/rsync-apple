@@ -63,9 +63,6 @@
 		596ED67B0FD4BC2300CCB493 /* backup.c in Sources */ = {isa = PBXBuildFile; fileRef = 596ED67A0FD4BC2300CCB493 /* backup.c */; };
 		596ED67F0FD4BC4600CCB493 /* access.c in Sources */ = {isa = PBXBuildFile; fileRef = 596ED67E0FD4BC4600CCB493 /* access.c */; };
 		596ED6830FD4BC9200CCB493 /* compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 596ED6820FD4BC9200CCB493 /* compat.c */; };
-		596ED6C50FD4C1F600CCB493 /* rsync.1 in man.1 */ = {isa = PBXBuildFile; fileRef = 596ED6C40FD4C1A600CCB493 /* rsync.1 */; };
-		596ED6D50FD59DB400CCB493 /* rsync.txt in OS License */ = {isa = PBXBuildFile; fileRef = 596ED6D30FD59D8800CCB493 /* rsync.txt */; };
-		596ED7040FD5A1C900CCB493 /* rsyncd.conf.5 in man.5 */ = {isa = PBXBuildFile; fileRef = 596ED7030FD5A1BA00CCB493 /* rsyncd.conf.5 */; };
 		596ED7440FD5A7AB00CCB493 /* rsyncd.conf in rsyncd.conf */ = {isa = PBXBuildFile; fileRef = 5982A9D20FD4B0B1003C9845 /* rsyncd.conf */; };
 		596ED75E0FD5A8DB00CCB493 /* launchd-rsync.plist in SysLibLD rsync.plist */ = {isa = PBXBuildFile; fileRef = 596ED75D0FD5A8C600CCB493 /* launchd-rsync.plist */; };
 		596ED9190FD5E5D100CCB493 /* tls.c in Sources */ = {isa = PBXBuildFile; fileRef = 5982AA3E0FD4B420003C9845 /* tls.c */; };
@@ -106,7 +103,6 @@
 		596ED9CC0FD5EB7900CCB493 /* poptparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 5982AA340FD4B420003C9845 /* poptparse.c */; };
 		596ED9CD0FD5EB8500CCB493 /* compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 5982AA140FD4B420003C9845 /* compat.c */; };
 		596ED9D00FD5EB9500CCB493 /* findme.c in Sources */ = {isa = PBXBuildFile; fileRef = 5982AA1B0FD4B420003C9845 /* findme.c */; };
-		5982A9D60FD4B118003C9845 /* rsync.plist in OS Plist */ = {isa = PBXBuildFile; fileRef = 5982A9D40FD4B0E3003C9845 /* rsync.plist */; };
 		5982A9E30FD4B24F003C9845 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5982A9E20FD4B24F003C9845 /* main.c */; };
 		5982AA090FD4B3B8003C9845 /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = 5982AA080FD4B3B8003C9845 /* io.c */; };
 		5982AA470FD4B420003C9845 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 5982AA0C0FD4B420003C9845 /* adler32.c */; };
@@ -219,39 +215,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		596ED6C30FD4C19600CCB493 /* man.1 */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstPath = /usr/share/man/man1;
-			dstSubfolderSpec = 0;
-			files = (
-				596ED6C50FD4C1F600CCB493 /* rsync.1 in man.1 */,
-			);
-			name = man.1;
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		596ED6E00FD59DC000CCB493 /* OS License */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstPath = /usr/local/OpenSourceLicenses;
-			dstSubfolderSpec = 0;
-			files = (
-				596ED6D50FD59DB400CCB493 /* rsync.txt in OS License */,
-			);
-			name = "OS License";
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		596ED7020FD5A11C00CCB493 /* man.5 */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstPath = /usr/share/man/man5;
-			dstSubfolderSpec = 0;
-			files = (
-				596ED7040FD5A1C900CCB493 /* rsyncd.conf.5 in man.5 */,
-			);
-			name = man.5;
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		596ED7400FD5A79F00CCB493 /* rsyncd.conf */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 8;
@@ -274,21 +237,10 @@
 			name = "SysLibLD rsync.plist";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		8DD76FAF0486AB0100D96B5E /* OS Plist */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstPath = /usr/local/OpenSourceVersions;
-			dstSubfolderSpec = 0;
-			files = (
-				5982A9D60FD4B118003C9845 /* rsync.plist in OS Plist */,
-			);
-			name = "OS Plist";
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		596ED5390FD4B88200CCB493 /* rsync */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rsync; sourceTree = BUILT_PRODUCTS_DIR; };
+		596ED5390FD4B88200CCB493 /* rsync_40 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rsync_40; sourceTree = BUILT_PRODUCTS_DIR; };
 		596ED62F0FD4B93A00CCB493 /* rsync.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rsync.c; path = rsync/rsync.c; sourceTree = "<group>"; };
 		596ED6620FD4BB5C00CCB493 /* authenticate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = authenticate.c; path = rsync/authenticate.c; sourceTree = "<group>"; };
 		596ED6660FD4BB8F00CCB493 /* wildmatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wildmatch.c; path = rsync/lib/wildmatch.c; sourceTree = "<group>"; };
@@ -446,7 +398,7 @@
 		1AB674ADFE9D54B511CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				596ED5390FD4B88200CCB493 /* rsync */,
+				596ED5390FD4B88200CCB493 /* rsync_40 */,
 				5984D6130FD72BE300CB9A13 /* tls */,
 				5984D6150FD72BF300CB9A13 /* getgroups */,
 				5984D6170FD72C2A00CB9A13 /* getfsdev */,
@@ -645,11 +597,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "rsync" */;
 			buildPhases = (
-				8DD76FAF0486AB0100D96B5E /* OS Plist */,
-				596ED6E00FD59DC000CCB493 /* OS License */,
-				596ED6C30FD4C19600CCB493 /* man.1 */,
-				596ED7020FD5A11C00CCB493 /* man.5 */,
-				596ED6E20FD5A02900CCB493 /* gzip & chown */,
 				8DD76FAB0486AB0100D96B5E /* Sources */,
 				8DD76FAD0486AB0100D96B5E /* Frameworks */,
 			);
@@ -660,7 +607,7 @@
 			name = rsync;
 			productInstallPath = "$(HOME)/bin";
 			productName = rsync;
-			productReference = 596ED5390FD4B88200CCB493 /* rsync */;
+			productReference = 596ED5390FD4B88200CCB493 /* rsync_40 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -700,21 +647,6 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		596ED6E20FD5A02900CCB493 /* gzip & chown */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "gzip & chown";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "set -x\ngzip -f ${DSTROOT}/usr/share/man/man[15]/*.[15]\nif [[ ${UID} -eq 0 ]]; then\n\tchown -R root:wheel ${DSTROOT}/usr\nfi\nfor f in $(find ${DSTROOT}/usr/local -type f); do\n\tchmod u-w \"${f}\"\ndone\n";
-			showEnvVarsInLog = 0;
-		};
 		596ED7740FD5A9AB00CCB493 /* plutil & chmod */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 8;
@@ -947,6 +879,7 @@
 				INSTALL_PATH = /usr/bin;
 				PRODUCT_NAME = rsync_40;
 				SDKROOT = macosx10.6;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -973,6 +906,7 @@
 				);
 				PREBINDING = NO;
 				SDKROOT = macosx10.5;
+				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				ZERO_LINK = NO;
 			};

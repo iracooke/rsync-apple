@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8DD76FA90486AB0100D96B5E"
-               BuildableName = "rsync"
+               BuildableName = "rsync_40"
                BlueprintName = "rsync"
                ReferencedContainer = "container:rsync.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DD76FA90486AB0100D96B5E"
-            BuildableName = "rsync"
+            BuildableName = "rsync_40"
             BlueprintName = "rsync"
             ReferencedContainer = "container:rsync.xcodeproj">
          </BuildableReference>
@@ -50,7 +50,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DD76FA90486AB0100D96B5E"
-            BuildableName = "rsync"
+            BuildableName = "rsync_40"
             BlueprintName = "rsync"
             ReferencedContainer = "container:rsync.xcodeproj">
          </BuildableReference>
@@ -68,7 +68,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DD76FA90486AB0100D96B5E"
-            BuildableName = "rsync"
+            BuildableName = "rsync_40"
             BlueprintName = "rsync"
             ReferencedContainer = "container:rsync.xcodeproj">
          </BuildableReference>
