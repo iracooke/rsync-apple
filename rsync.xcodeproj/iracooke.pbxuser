@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 7597EA3713A0B17200D4C651 /* rsync */;
+		activeTarget = 8DD76FA90486AB0100D96B5E /* rsync */;
+		codeSenseManager = 7597EB3C13A0B19A00D4C651 /* Code sense */;
+		executables = (
+			7597EA3713A0B17200D4C651 /* rsync */,
+			7597EA3813A0B17200D4C651 /* tls */,
+			7597EA3913A0B17200D4C651 /* getgroups */,
+			7597EA3A13A0B17200D4C651 /* getfsdev */,
+			7597EA3B13A0B17200D4C651 /* trimslash */,
+			7597EA3C13A0B17200D4C651 /* t_unsafe */,
+			7597EA3D13A0B17200D4C651 /* wildtest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1670,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 333254107;
+			PBXWorkspaceStateSaveDate = 333254107;
+		};
+		perUserProjectItems = {
+			7512A3EF13AB411300259D35 /* PBXTextBookmark */ = 7512A3EF13AB411300259D35 /* PBXTextBookmark */;
+			75C7CDC213DD0DEE0077D53B /* PBXTextBookmark */ = 75C7CDC213DD0DEE0077D53B /* PBXTextBookmark */;
+			75C7CDC313DD0DEE0077D53B /* PBXTextBookmark */ = 75C7CDC313DD0DEE0077D53B /* PBXTextBookmark */;
+			75C7CDC913DD15DE0077D53B /* PBXTextBookmark */ = 75C7CDC913DD15DE0077D53B /* PBXTextBookmark */;
+		};
+		sourceControlManager = 7597EB3B13A0B19A00D4C651 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	596ED62F0FD4B93A00CCB493 /* rsync.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1848, 4030}}";
+			sepNavSelRange = "{7000, 0}";
+			sepNavVisRange = "{5737, 1985}";
+		};
+	};
+	596ED73A0FD5A75D00CCB493 /* Embedded */ = {
+		activeExec = 0;
+	};
+	596ED7410FD5A79F00CCB493 /* rsyncd */ = {
+		activeExec = 0;
+	};
+	596ED9090FD5E57600CCB493 /* testbots */ = {
+		activeExec = 0;
+	};
+	596ED9120FD5E5A800CCB493 /* tls */ = {
+		activeExec = 0;
+		executables = (
+			7597EA3813A0B17200D4C651 /* tls */,
+		);
+	};
+	596ED9350FD5E74700CCB493 /* getgroups */ = {
+		activeExec = 0;
+		executables = (
+			7597EA3913A0B17200D4C651 /* getgroups */,
+		);
+	};
+	596ED9640FD5E84800CCB493 /* getfsdev */ = {
+		activeExec = 0;
+		executables = (
+			7597EA3A13A0B17200D4C651 /* getfsdev */,
+		);
+	};
+	596ED9760FD5E89A00CCB493 /* trimslash */ = {
+		activeExec = 0;
+		executables = (
+			7597EA3B13A0B17200D4C651 /* trimslash */,
+		);
+	};
+	596ED98A0FD5E8E900CCB493 /* t_unsafe */ = {
+		activeExec = 0;
+		executables = (
+			7597EA3C13A0B17200D4C651 /* t_unsafe */,
+		);
+	};
+	596ED9A30FD5E9BE00CCB493 /* wildtest */ = {
+		activeExec = 0;
+		executables = (
+			7597EA3D13A0B17200D4C651 /* wildtest */,
+		);
+	};
+	5982AA120FD4B420003C9845 /* clientserver.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 11570}}";
+			sepNavSelRange = "{18231, 0}";
+			sepNavVisRange = "{18003, 335}";
+		};
+	};
+	5982AA380FD4B420003C9845 /* sender.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 5811}}";
+			sepNavSelRange = "{10777, 19}";
+			sepNavVisRange = "{10488, 362}";
+		};
+	};
+	7512A3EF13AB411300259D35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5982AA120FD4B420003C9845 /* clientserver.c */;
+		name = "clientserver.c: 694";
+		rLen = 0;
+		rLoc = 18231;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 18003;
+	};
+	7512A3F113AB411300259D35 /* sender.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = sender.c;
+		path = "/Users/iracooke/Sources/rsync-40/rsync/sender.c";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 5980}}";
+			sepNavSelRange = "{10777, 19}";
+			sepNavVisRange = "{10488, 361}";
+		};
+	};
+	7597EA3713A0B17200D4C651 /* rsync */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = rsync;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	7597EA3813A0B17200D4C651 /* tls */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = tls;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	7597EA3913A0B17200D4C651 /* getgroups */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = getgroups;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	7597EA3A13A0B17200D4C651 /* getfsdev */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = getfsdev;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	7597EA3B13A0B17200D4C651 /* trimslash */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = trimslash;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	7597EA3C13A0B17200D4C651 /* t_unsafe */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = t_unsafe;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	7597EA3D13A0B17200D4C651 /* wildtest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = wildtest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	7597EB3B13A0B19A00D4C651 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7597EB3C13A0B19A00D4C651 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	75C7CDC213DD0DEE0077D53B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7512A3F113AB411300259D35 /* sender.c */;
+		name = "sender.c: 423";
+		rLen = 19;
+		rLoc = 10777;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 10488;
+	};
+	75C7CDC313DD0DEE0077D53B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 596ED62F0FD4B93A00CCB493 /* rsync.c */;
+		name = "rsync.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 771;
+		vrLoc = 0;
+	};
+	75C7CDC913DD15DE0077D53B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 596ED62F0FD4B93A00CCB493 /* rsync.c */;
+		name = "rsync.c: 245";
+		rLen = 0;
+		rLoc = 7000;
+		rType = 0;
+		vrLen = 1985;
+		vrLoc = 5737;
+	};
+	8DD76FA90486AB0100D96B5E /* rsync */ = {
+		activeExec = 0;
+		executables = (
+			7597EA3713A0B17200D4C651 /* rsync */,
+		);
+	};
+}
