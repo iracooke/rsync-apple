@@ -79,6 +79,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "rsync_40"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
